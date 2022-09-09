@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VA Careers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ysf6agd.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/uswds.min.js" defer></script>
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body class="homepage">
+    <a class="usa-skipnav" href="#main">Skip to main content</a>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <section class="usa-banner" aria-label="Official government website">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+
+                <img class="usa-banner__header-flag" src="/assets/img/us_flag_small.png" alt="U.S. flag" />
+                <p class="usa-banner__header-text">
+                    An official website of the United States government <a href="#usa-banner" aria-controls="usa-banner" data-open-modal>Here’s how you know <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                            <use xlink:href="/assets/img/sprite.svg#info"></use>
+                        </svg></a>
+                </p>
+
+            </div>
+        </header>
+        <div class="usa-modal" id="usa-banner" aria-labelledby="usa-banner-heading" aria-describedby="usa-banner-description">
+            <div class="usa-modal__content">
+                <div class="usa-modal__main">
+                    <h2 class="usa-modal__heading" id="usa-banner-heading">
+                        This is an official website of the United States government
+                    </h2>
+                    <p id="usa-banner-description">
+                        Here’s how you know:
+                    </p>
+                    <div class="grid-row grid-gap-lg">
+                        <div class="usa-banner__guidance desktop:grid-col-6">
+                            <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-dot-gov.svg" role="img" alt="" aria-hidden="true" />
+                            <div class="usa-media-block__body">
+                                <p>
+                                    <strong>Official websites use .gov</strong><br />A
+                                    <strong>.gov</strong> website belongs to an official government
+                                    organization in the United States.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="usa-banner__guidance desktop:grid-col-6">
+                            <img class="usa-banner__icon usa-media-block__img" src="/assets/img/icon-https.svg" role="img" alt="" aria-hidden="true" />
+                            <div class="usa-media-block__body">
+                                <p>
+                                    <strong>Secure .gov websites use HTTPS</strong><br />A
+                                    <strong>lock</strong> (
+                                    <span class="icon-lock"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title-default banner-lock-description-default" focusable="false">
+                                            <title id="banner-lock-title-default">Lock</title>
+                                            <desc id="banner-lock-description-default">A locked padlock</desc>
+                                            <path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                        </svg> </span>) or <strong>https://</strong> means you’ve safely connected to
+                                    the .gov website. Share sensitive information only on official,
+                                    secure websites.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                    <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                        <use xlink:href="/assets/img/sprite.svg#close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="va-wide-header">
+        <nav class="va-nav">
+            <ul class="va-menu">
+                <li class="menu-item"><a title="" href="https://va.gov">VA.gov</a></li>
+                <li class="menu-item"><a title="" href="https://news.va.gov">VA News</a></li>
+                <li class="menu-item"><a title="Find a VA location" href="https://www.va.gov/find-locations">Locations</a></li>
+                <li class="menu-item"><a title="" href="https://department.va.gov/business/">Business</a></li>
+                <li class="menu-item"><a title="Career opportunities at VA" href="https://www.vacareers.va.gov/" disabled>VA Careers</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <header class="vacareers-header">
+        <div class="grid-container va-header-wrapper">
+            <a href="/" class="logo" title="VA Careers Home">
+                <img src="/assets/img/va-careers-logo-white.svg" alt="VA Careers">
+            </a>
+            <button class="navbar-toggle" type="button" aria-label="Toggle navigation" title="Menu" id="menuToggle">
+                <div class='bar1'></div>
+                <div class='bar2'></div>
+                <div class='bar3'></div>
+            </button>
+        </div>
+        <nav class="site-nav" id="sitenav" hidden tabindex="-1">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="tablet:grid-col-12">
+                        <ul class="main-menu usa-accordion">
+                            <li class="menu-item"><a href="#">Home</a></li>
+                            <li class="menu-item">
+                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="a1">
+                                    Careers <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                        <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+                                    </svg>
+                                </button>
+                                <ul id="a1" class="sub-menu usa-accordion__content">
+                                    <li class="menu-item "><a href="#">Search job openings</a></li>
+                                    <span class="menu-subheading">Currently hiring</span>
+                                    <div class="flex-list col-30">
+                                        <li class="menu-item"><a href="#">Nursing</a></li>
+                                        <li class="menu-item"><a href="#">Physicians</a></li>
+                                        <li class="menu-item"><a href="#">Dentistry</a></li>
+                                        <li class="menu-item"><a href="#">Mental health</a></li>
+                                        <li class="menu-item"><a href="#">Social work</a></li>
+                                        <li class="menu-item"><a href="#">Allied health</a></li>
+                                        <li class="menu-item"><a href="#">Pharmacy</a></li>
+                                        <li class="menu-item"><a href="#">Leadership</a></li>
+                                        <li class="menu-item"><a href="#">Administration</a></li>
+                                        <li class="menu-item"><a href="#">Technology</a></li>
+                                        <li class="menu-item"><a href="#">Support services</a></li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="a2">
+                                    Career guidance <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                        <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+                                    </svg>
+                                </button>
+                                <ul id="a2" class="sub-menu usa-accordion__content">
+                                    <li class="menu-item"><a href="#">Career guidance</a></li>
+                                    <span class="menu-heading">Opportunities for</span>
+                                    <li class="menu-item"><a href="#">Veterans and transitioning military</a></li>
+                                    <li class="menu-item"><a href="#">Military spouses</a></li>
+                                    <li class="menu-item"><a href="#">Students and recent grads</a></li>
+                                    <li class="menu-item"><a href="#">Trainees</a></li>
+                                    <li class="menu-item"><a href="#">Civilian professionals</a></li>
+                                    <li class="menu-item"><a href="#">More ways to work at VA</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="a3">
+                                    Benefits <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                        <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+                                    </svg>
+                                </button>
+                                <ul id="a3" class="sub-menu usa-accordion__content">
+                                    <li class="menu-item"><a href="#">Benefits</a></li>
+                                    <li class="menu-item"><a href="#">Education support</a></li>
+                                    <li class="menu-item"><a href="#">Being of service</a></li>
+                                    <li class="menu-item"><a href="#">People, culture, and diversity</a></li>
+                                    <li class="menu-item"><a href="#">Top 10 reasons to work at VA</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="a4">
+                                    Job application process <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                        <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+                                    </svg>
+                                </button>
+                                <ul id="a4" class="sub-menu usa-accordion__content">
+                                    <li class="menu-item"><a href="#">Job application process</a></li>
+                                    <li class="menu-item"><a href="#">Applicant FAQs</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="a5">
+                                    Contact <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                        <use xlink:href="/assets/img/sprite.svg#navigate_next"></use>
+                                    </svg>
+                                </button>
+                                <ul id="a5" class="sub-menu usa-accordion__content">
+                                    <li class="menu-item"><a href="#">Contact VA</a></li>
+                                    <li class="menu-item"><a href="#">Connect with a recruiter</a></li>
+                                    <li class="menu-item"><a href="#">Newsletter signup</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="usa-overlay"></div>
+    <header class="usa-header usa-header--extended">
+        <div class="usa-navbar">
+            <div class="usa-logo" id="-logo">
+                <em class="usa-logo__text"><a href="/" title="Home">Home</a></em>
+            </div>
+            <button type="button" class="usa-menu-btn">Menu</button>
+        </div>
+        <nav aria-label="Primary navigation" class="usa-nav">
+            <div class="usa-nav__inner">
+                <button type="button" class="usa-nav__close">
+                    <img src="/assets/img/usa-icons/close.svg" role="img" alt="Close" />
+                </button>
+                <ul class="usa-nav__primary usa-accordion">
+                    <li class="usa-nav__primary-item">
+                        <button type="button" class="usa-accordion__button usa-nav__link usa-current" aria-expanded="false" aria-controls="extended-nav-section-one">
+                            <span>&lt;Current section&gt;</span>
+                        </button>
+                        <ul id="extended-nav-section-one" class="usa-nav__submenu">
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="usa-nav__primary-item">
+                        <button type="button" class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two">
+                            <span>&lt;Section&gt;</span>
+                        </button>
+                        <ul id="extended-nav-section-two" class="usa-nav__submenu">
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                            <li class="usa-nav__submenu-item">
+                                <a href=""><span>&lt;Navigation link&gt;</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="usa-nav__primary-item">
+                        <a href="" class="usa-nav-link"><span>&lt;Simple link&gt;</span></a>
+                    </li>
+                </ul>
+                <div class="usa-nav__secondary usa-header--extended">
+                    <ul class="usa-nav__secondary-links"></ul>
+                    <section aria-label="Search component">
+                        <form class="usa-search usa-search--small" role="search">
+                            <label class="usa-sr-only" for="search-field">Search</label>
+                            <input class="usa-input" id="search-field" type="search" name="search" />
+                            <button class="usa-button" type="submit">
+                                <img src="/assets/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" />
+                            </button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero flex-vcenter vh-80 bg-darker usa-dark-background">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="desktop:grid-col-6">
+                        <h1>Serve those who have served our country.</h1>
+                        <div class="job-search">
+                            <form action="">
+                                <span class="job-search-title">Find your career at VA.</span>
+                                <div class="form-group">
+                                    <input class="usa-input" id="input-type-text" name="job-keyword" placeholder="Job title / keyword" aria-label="Search by job title / keyword" />
+                                    <input class="usa-input" id="input-type-text" name="job-location" placeholder="Location" aria-label="Search job location" />
+                                    <button class="usa-button">Default</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="intro flex-vcenter vh-500px bg-radial-grad">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="grid-col-6">
+                        <ul class="wayfinding-list">
+                            <li>
+                                <a href="" class="a-color-1">Careers</a>
+                            </li>
+                            <li>
+                                <a href="" class="a-color-2">Career guidance</a>
+                            </li>
+                            <li>
+                                <a href="" class="a-color-3">Benefits</a>
+                            </li>
+                            <li>
+                                <a href="" class="a-color-4">Job application process</a>
+                            </li>
+                            <li>
+                                <a href="" class="a-color-5">Outreach</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="desktop:grid-col-6">
+                        <p class="usa-intro">VA Careers has resources to empower you on your journey to finding a fulfilling career at the U.S. Department of Veterans Affairs (VA).</p>
+                        <p class="usa-intro">At the largest health care system in the country, our providers and support staff help 9 million Veterans reach whole health each year.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="careers-at-va flex-vcenter vh-80">
+            <div class="grid-container">
+                <h2 class="h-after color-1">Careers at VA</h2>
+                <p>No matter your field, there's a job at VA for you. We employ a variety of health care providers, administrators, and support professionals to help us achieve our mission of caring for the nation's Veterans.</p>
+                <ul class="usa-card-group">
+                    <li class="usa-card tablet:grid-col-3">
+                        <div class="usa-card__container">
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="usa-card tablet:grid-col-3">
+                        <div class="usa-card__container">
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="usa-card tablet:grid-col-3">
+                        <div class="usa-card__container">
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="usa-card tablet:grid-col-3">
+                        <div class="usa-card__container">
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="usa-button">Default</button>
+            </div>
+        </section>
+        <section class="careers-alert flex-vcenter vh-500px bg-radial-grad">
+            <div class="grid-container">
+                <h2 class="h-after color-1">Apply for ciritical need jobs</h2>
+                <p>Right now, we're hiring for hundreds of vital positions across the U.S. Take your first step to a VA career today.</p>
+                <ul>
+                    <li class="job-link-group"><a href="" class="job-link usa-link--external">Housekeeping aid jobs</a><span class="job-openings">103 openings</span></li>
+                    <li class="job-link-group"><a href="" class="job-link usa-link--external">Critical COVID-19 jobs</a><span class="job-openings">367 openings</span></li>
+                    <li class="job-link-group"><a href="" class="job-link usa-link--external">Food service jobs</a><span class="job-openings">351 openings</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="spotlight flex-vcenter">
+            <div class="grid-container">
+                <div class="grid-container">
+                    <div class="desktop:grid-col-6 desktop:grid-offset-6">
+                        <figure>
+                            <blockquote class="h-after color-3">
+                                <span class="inner-text">
+                                    I love my job every day. I's joy, working with this group of Veterans. … This is the best kept secret that most people don't understand — the care that we give, it's tremendous.
+                                </span>
+                            </blockquote>
+                            <figcaption>Babatunde Alegbeleye <span>Licensed Practical Nurse</span></figcaption>
+                        </figure>
+                        <button class="usa-button usa-button--color-3">Being of service <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                <use xlink:href="/assets/img/sprite.svg#arrow_forward"></use>
+                            </svg>
+                        </button>
+                        <button class="usa-button usa-button--outline usa-button--inverse open-modal" aria-controls="spotlight-modal" data-open-modal>Watch the video <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                                <use xlink:href="/assets/img/sprite.svg#movie"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <video autoplay muted loop class="spotlight-video-bg" id="myVideo">
+                <source src="assets/img/spotlight-bg.mp4" type="video/mp4">
+            </video>
+            <button class="spotlight-pause">
+                <svg class="usa-icon usa-icon--size-6" aria-hidden="true" focusable="false" role="img">
+                    <use xlink:href="/assets/img/sprite.svg#pause_circle"></use>
+                </svg>
+            </button>
+            <div class="usa-modal" id="spotlight-modal">
+                <div class="usa-modal__content">
+                    <video controls class="modal-video">
+                        <source src="assets/img/spotlight.mp4" type="video/mp4">
+                    </video>
+                    <button class="usa-button usa-modal__close" aria-label="Close this window" data-close-modal>
+                        <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
+                            <use xlink:href="/assets/img/sprite.svg#close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="career-guidance flex-vcenter vh-80">
+            <div class="grid-container">
+                <h2 class="h-after color-2">Career guidance</h2>
+                <p>There isn't just one route to a VA career — which means there isn't one-size-fits-all advice for every applicant. We've put together helpful information and career guidance for several of our most common applicant groups.</p>
+                <ul class="usa-card-group">
+                    <li class="usa-card usa-card--flag desktop:grid-col-6">
+                        <div class="usa-card__container">
+                            <div class="usa-card__header">
+                                <h2 class="usa-card__heading">Default flag</h2>
+                            </div>
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="usa-card__footer">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="usa-card usa-card--flag desktop:grid-col-6">
+                        <div class="usa-card__container">
+                            <div class="usa-card__header">
+                                <h2 class="usa-card__heading">Default flag</h2>
+                            </div>
+                            <div class="usa-card__media">
+                                <div class="usa-card__img">
+                                    <img src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg" alt="A placeholder image" />
+                                </div>
+                            </div>
+                            <div class="usa-card__body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="usa-card__footer">
+                                <a href="" class="internal">Card link</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="usa-button">Default</button>
+            </div>
+        </section>
+        <section class="application-process flex-vcenter vh-500px">
+            <div class="grid-container">
+                <h2 class="h-after color-4">What to expect when you apply to VA</h2>
+                <p>Before you embark on your search for a VA career, take a minute to better understand how the application process works. Review this step-by-step guide, which takes you from the exploration phase all the way through to hiring.</p>
+                <button class="usa-button">Default</button><button class="usa-button usa-button--outline">Default</button>
+            </div>
+        </section>
+        <section class="awards">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="desktop:grid-col-6">
+                        <h2 class="h-after color-4">Join an award-winning team</h2>
+                        <p>What makes VA a great place to work? We don't just have one reason. We have 10 of them!</p>
+                        <button class="usa-button">Default</button>
+                    </div>
+                    <div class="desktop:grid-col-6"></div>
+                </div>
+            </div>
+        </section>
+        <section class="recruiter bg-dark flex-vcenter vh-500px">
+            <div class="grid-container">
+                <h2 class="h-after color-5">Need help with your job search?</h2>
+                <p>Our recruiters can provide personalized support to help you find a position at VA that fits your skills and lifestyle.</p>
+                <button class="usa-button">Default</button>
+            </div>
+        </section>
+        <section class="newsletter-signup bg-darker flex-vcenter vh-500px">
+            <div class="grid-container">
+                <div class="grid-row">
+                    <div class="desktop:grid-col-6">
+                        <h2 class="h-after color-5">Sign up for VA Careers news</h2>
+                        <p>Our newsletters offer the latest about working at VA, delivered right to your inbox.</p>
+                        <form action="">
+                            <div class="form-group">
+                                <label class="usa-label" for="input-type-text">Text input label</label>
+                                <input class="usa-input" id="input-type-text" name="input-type-text" />
+                                <button class="usa-button">Default</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="usa-footer">
+            <div class="grid-container usa-footer__return-to-top">
+                <a href="#">Return to top</a>
+            </div>
+            <div class="usa-footer__primary-section">
+                <nav class="usa-footer__nav" aria-label="Footer navigation">
+                    <ul class="grid-row grid-gap">
+                        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                            <a class="usa-footer__primary-link" href="javascript:void(0);">[Primary link]</a>
+                        </li>
+                        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                            <a class="usa-footer__primary-link" href="javascript:void(0);">[Primary link]</a>
+                        </li>
+                        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                            <a class="usa-footer__primary-link" href="javascript:void(0);">[Primary link]</a>
+                        </li>
+                        <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">
+                            <a class="usa-footer__primary-link" href="javascript:void(0);">[Primary link]</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="usa-footer__secondary-section">
+                <div class="grid-container">
+                    <div class="grid-row grid-gap">
+                        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+                            <div class="mobile-lg:grid-col-auto">
+                                <img class="usa-footer__logo-img" src="/assets/img/logo-img.png" alt="" />
+                            </div>
+                            <div class="mobile-lg:grid-col-auto">
+                                <p class="usa-footer__logo-heading">[Name of Agency]</p>
+                            </div>
+                        </div>
+                        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+                            <div class="usa-footer__social-links grid-row grid-gap-1">
+                                <div class="grid-col-auto">
+                                    <a class="usa-social-link" href="javascript:void(0);"><img class="usa-social-link__icon" src="/assets/img/usa-icons/facebook.svg" alt="Facebook" /></a>
+                                </div>
+                                <div class="grid-col-auto">
+                                    <a class="usa-social-link" href="javascript:void(0);"><img class="usa-social-link__icon" src="/assets/img/usa-icons/twitter.svg" alt="Twitter" /></a>
+                                </div>
+                                <div class="grid-col-auto">
+                                    <a class="usa-social-link" href="javascript:void(0);"><img class="usa-social-link__icon" src="/assets/img/usa-icons/youtube.svg" alt="YouTube" /></a>
+                                </div>
+                                <div class="grid-col-auto">
+                                    <a class="usa-social-link" href="javascript:void(0);"><img class="usa-social-link__icon" src="/assets/img/usa-icons/instagram.svg" alt="Instagram" /></a>
+                                </div>
+                                <div class="grid-col-auto">
+                                    <a class="usa-social-link" href="javascript:void(0);"><img class="usa-social-link__icon" src="/assets/img/usa-icons/rss_feed.svg" alt="RSS" /></a>
+                                </div>
+                            </div>
+                            <p class="usa-footer__contact-heading">[Agency Contact Center]</p>
+                            <address class="usa-footer__address">
+                                <div class="usa-footer__contact-info grid-row grid-gap">
+                                    <div class="grid-col-auto">
+                                        <a href="tel:1-800-555-5555">[(800) 555-GOVT]</a>
+                                    </div>
+                                    <div class="grid-col-auto">
+                                        <a href="mailto:info@agency.gov">[info@agency.gov]</a>
+                                    </div>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="official-footer bg-darker usa-dark-background">
+                <div class="grid-container">
+                    <p>The official website of the U.S. Department of Veterans Affairs</p>
+                    <ul class="usa-list--unstyled">
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov" rel="nofollow noopener">VA.gov</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://choose.va.gov" rel="nofollow noopener">ChooseVA</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/ABOUT_VA/index.asp" rel="nofollow noopener">About VA</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.section508.va.gov/" rel="nofollow noopener">Accessibility support</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/ormdi/NOFEAR_Select.asp" rel="nofollow noopener">No FEAR Act data</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/accountability/" rel="nofollow noopener">Whistleblower Protection</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/oig/" rel="nofollow noopener">Office of the Inspector General</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/performance-dashboard/" rel="nofollow noopener">Performance reports</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/privacy-policy/" rel="nofollow noopener">Privacy policy</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/foia/" rel="nofollow noopener">FOIA requests</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/web/standards/disclaimer.cfm" rel="nofollow noopener">Disclaimers</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.data.va.gov/" rel="nofollow noopener">Open Data</a></li>
+                        <li class="usa-links-item"><a class="usa-link" href="https://www.va.gov/vulnerability-disclosure-policy/" rel="nofollow noopener">Vulnerability Disclosure Policy</a></li>
+                    </ul>
+                    <p>Looking for U.S. government information and services? <a class="usa-link" href="https://www.usa.gov/" rel="nofollow noopener">Visit USA.gov</a></p>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

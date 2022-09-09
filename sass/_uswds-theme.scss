@@ -1,0 +1,158 @@
+/*
+----------------------------------------
+USWDS with settings overrides
+----------------------------------------
+Uncomment the following lines and add a list of changed settings
+in the form $setting: value,
+----------------------------------------
+*/
+
+@use "uswds-core" with (
+    $theme-show-compile-warnings: false,
+    $theme-show-notifications: false,
+
+    $theme-image-path: "/wp-content/themes/vacareers/assets/img",
+
+    // Grid & Spacing
+    $theme-layout-grid-use-important: true,
+    $theme-utility-breakpoints: (
+        // 160px
+        "card": false,
+        // 240px
+        "card-lg": false,
+        // 320px
+        "mobile": true,
+        // 480px
+        "mobile-lg": false,
+        // 640px
+        "tablet": true,
+        // 880px
+        "tablet-lg": false,
+        // 1024px
+        "desktop": true,
+        // 1200px
+        "desktop-lg": false,
+        // 1400px
+        "widescreen": false,
+    ),
+    $theme-grid-container-max-width: "desktop-lg",
+    $theme-banner-max-width: "desktop-lg",
+    $theme-header-max-width: "desktop-lg",
+    $theme-header-min-width: "desktop",
+    $theme-site-margins-breakpoint: "mobile",
+    $theme-site-margins-width: 4,
+    $theme-site-margins-mobile-width: 2,
+
+    $theme-column-gap-desktop: 4,
+    $theme-card-gap: 4,
+
+    $theme-modal-border-radius: "md",
+    $theme-modal-default-max-width: "desktop",
+
+    // Type
+    $theme-global-paragraph-styles: true,
+    $theme-global-link-styles: true,
+    $theme-global-content-styles: true,
+
+    $theme-text-measure: 6,
+
+    $theme-color-base-family: "gray-90",
+    $theme-font-type-sans: "source-sans-pro",
+
+    $theme-typeface-tokens: (
+        "calluna": (
+            display-name: "Calluna",
+            cap-height: 371px,
+            stack: "serif",
+        ),
+    ),
+    $theme-font-type-serif: "calluna",
+
+    $theme-font-path: "../vacareers/assets/fonts",
+
+    // Color
+    $theme-color-primary-family: "blue-vivid",
+    $theme-color-primary-lighter: "blue-50v",
+    $theme-color-primary-light: "blue-60v",
+    $theme-color-primary: "blue-70v",
+    $theme-color-primary-dark: "blue-80v",
+    $theme-color-primary-darker: "blue-80v",
+
+    $theme-color-secondary-family: "gold-vivid",
+    $theme-color-secondary-lighter: "gold-5v",
+    $theme-color-secondary-light: "gold-10v",
+    $theme-color-secondary: "gold-20v",
+    $theme-color-secondary-dark: "gold-30v",
+    $theme-color-secondary-darker: "gold-40v",
+
+    $theme-color-accent-cool-family: "mint-cool",
+    $theme-color-accent-cool-lighter: "mint-cool-10",
+    $theme-color-accent-cool-light: "mint-cool-20",
+    $theme-color-accent-cool: "mint-cool-30",
+    $theme-color-accent-cool-dark: "mint-cool-40",
+    $theme-color-accent-cool-darker: "mint-cool-50",
+
+    // Comment out everything not in use
+    $output-these-utilities:
+        (
+            "add-aspect",
+            "add-list-reset",
+            "align-items",
+            "align-self",
+            "background-color",
+            "border",
+            "border-color",
+            "border-radius",
+            "border-style",
+            "border-width",
+            "bottom",
+            "box-shadow",
+            "circle",
+            "clearfix",
+            "color",
+            "cursor",
+            "display",
+            "flex",
+            "flex-direction",
+            "flex-wrap",
+            "float",
+            "font",
+            "font-family",
+            "font-feature",
+            "font-style",
+            "font-weight",
+            "height",
+            "justify-content",
+            "left",
+            "letter-spacing",
+            "line-height",
+            "margin",
+            "margin-horizontal",
+            "margin-vertical",
+            "max-height",
+            "max-width",
+            "measure",
+            "min-height",
+            "min-width",
+            "opacity",
+            "order",
+            "outline",
+            "outline-color",
+            "overflow",
+            "padding",
+            "pin",
+            "position",
+            "right",
+            "square",
+            "text-align",
+            "text-decoration",
+            "text-decoration-color",
+            "text-indent",
+            "text-transform",
+            "top",
+            "vertical-align",
+            "whitespace",
+            "width",
+            "z-index",
+        )
+);

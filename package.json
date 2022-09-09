@@ -1,0 +1,21 @@
+{
+    "name": "va-careers-wp-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx gulp & wp-scripts start src/scripts.js src/blocks/*.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@uswds/uswds": "^3.0.2",
+        "@wordpress/icons": "^9.7.0",
+        "focus-trap": "^6.9.4"
+    },
+    "devDependencies": {
+        "@uswds/compile": "^1.0.0-beta.3",
+        "@wordpress/scripts": "^23.6.0"
+    }
+}
